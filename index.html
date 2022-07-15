@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet">
+    <link rel="shortcut icon"
+          href="./assets/logo-tesla.png"
+          type="image/x-icon">
+
+    <title>Tesla Clone</title>
+</head>
+
+<body>
+    <section>
+        <div class="section_nav">
+            <div class="logo_tesla">
+                <img src="./assets/logo.svg"
+                     alt="logo">
+            </div>
+            <nav class="nav_models">
+                <ul>
+                    <li><a href="#">Model S</a></li>
+                    <li><a href="#">Model 3</a></li>
+                    <li><a href="#">Model X</a></li>
+                    <li><a href="#">Model Y</a></li>
+                    <li><a href="#">Solar Roof</a></li>
+                    <li><a href="#">Solar Panels</a></li>
+                </ul>
+            </nav>
+            <nav class="nav_models">
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a onclick="openNav()"
+                           class="open_menu"
+                           href="#">Menu</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu">
+                <li><a onclick="openNav()"
+                       class="open_menu"
+                       href="#">Menu</a></li>
+            </div>
+        </div>
+        <div class="model">
+            <h2>Model S</h2>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+        </div>
+        <div class="buttons">
+            <a class="btn_custom"
+               href="#">
+                <span>Custom Order</span>
+            </a>
+            <a class="btn_inventory"
+               href="#">
+                <span>Existing Inventory</span>
+            </a>
+        </div>
+        <div class="background_modal close">
+            <div class="modal">
+                <div class="close_modal">
+                    <i id="close_btn"
+                       class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="nav_modal">
+                    <ul class="list_modal">
+                        <li>Model S</li>
+                        <li>Model 3</li>
+                        <li>Model X</li>
+                        <li>Model Y</li>
+                        <li>Solar Roof</li>
+                        <li>Solar Panels</li>
+                        <li>Existing Inventory</li>
+                        <li>Used Inventory</li>
+                        <li>Find Us</li>
+                        <li>Support</li>
+                        <li>Shop</li>
+                        <li>Account</li>
+                        <li class="locate_selector">
+                            <i class="fa-solid fa-globe"></i>
+                            <div>
+                                <span>United States</span>
+                                <span class="english">English</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/871ecdd118.js"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
